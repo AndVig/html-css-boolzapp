@@ -32,10 +32,10 @@ body{
 }
 .icon-list{
     list-style: none;
-    margin-right: 10px;
 }
 .icon-list li{
     display: inline;
+    margin-right: 10px;
 }
 .contacts{
     height: 100%;
@@ -56,9 +56,42 @@ body{
 .r-info{
     margin-right: 10px;
 }
-
+.notifiche{
+    width: 100%;
+    height: 60px;
+    background-color: #8fdafc;
+    align-items: center;
+}
+.bell{
+    margin-left: 10px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 10px;
+}
 .chat{
     height: 100%;
     width: 65%;
     background-color: greenyellow       
+}
+
+
+/*TEXT*/
+h2{
+    font-size: 17px;
+}
+h3{
+    font-size: 16px;
+}
+h4{
+    font-size: 15px;
+}
+h5{
+    font-size: 14px;
+}
+.grey{
+    color: grey;
+}
+/*Position adjustments*/
+.l-space{
+    margin-left: 10px;
 }
