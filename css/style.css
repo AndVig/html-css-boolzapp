@@ -119,6 +119,7 @@ body{
     width: 100%;
     height: calc(100% - 120px);
     background-image: url(../img/mine.jpg);
+    overflow-y: auto;
 }
 .write{
     width: 100%;
@@ -138,7 +139,22 @@ body{
     padding-left: 20px;
     width: 80%;
 }
-
+.m-list{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: -20px;
+}
+.m-list li{
+    list-style: none;
+    max-width: 60%;
+    height: auto;
+    padding: 8px 10px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    margin-top: 20px;
+}
 /*TEXT*/
 h2{
     font-size: 17px;
@@ -155,10 +171,26 @@ h5{
 .grey{
     color: grey;
 }
+.sent{
+    background-color: #d4f9bb;
+    left: 0;
+
+}
+.received{
+    background-color: white;
+    left: 40%;
+}
 /*Position adjustments*/
 .l-space{
     margin-left: 10px;
 }
 .dati{
     padding-left: -10px;
+}
+.text{
+    width: 70%;
+}
+.info{
+    width: 30%;
+    text-align: right;
 }
