@@ -26,7 +26,7 @@ body{
     position: absolute;
     bottom: 5%;
 }
-.icon{
+.avatar{
     border-radius: 100%;
     width: 40px;
 }
@@ -40,7 +40,7 @@ body{
 .contacts{
     height: 100%;
     width: 35%;
-    background-color: gold;
+    border-right: 1px rgb(187, 187, 187) solid;
 }
 .header-contacts{
     width: 100%;
@@ -49,12 +49,18 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.l-info{
-    margin-left: 10px;
-}
-.r-info{
-    margin-right: 10px;
+.header-contacts-chat{
+    width: 100%;
+    height:60px;
+    background-color: #eaeaea;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .notifiche{
     width: 100%;
@@ -84,10 +90,49 @@ body{
     background-color: white;
     padding: 10px;
 }
+.conversations{
+    width: 100%;
+    height: calc(100% - 170px);
+    background-color: red;
+    overflow-y: auto;
+}
+.c-list{
+    width: 100%;
+}
+.c-list li{
+    list-style: none;
+    height: 80px;
+    border-bottom: 1px solid #D7DBD6;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: white;
+    padding-right: 10px;
+}
+.c-list li :hover{
+    background-color: #eaeaea;
+}
+.c-details{
+    margin-left: 10px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
 .chat{
     height: 100%;
     width: 65%;
     background-color: greenyellow       
+}
+.main-chat{
+    width: 100%;
+    height: calc(100% - 120px);
+    background-image: url(../img/mine.jpg);
+}
+.write{
+    width: 100%;
+    height: 60px;
+    background-color: blue;
 }
 
 
@@ -110,4 +155,7 @@ h5{
 /*Position adjustments*/
 .l-space{
     margin-left: 10px;
+}
+.dati{
+    padding-left: -10px;
 }
