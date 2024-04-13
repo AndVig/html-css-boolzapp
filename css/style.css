@@ -6,7 +6,9 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-
+.flex{
+    display: flex;
+}
 body{
     background-color: #d8dad6;
 }
@@ -23,5 +25,14 @@ body{
     left: 8%;
     position: absolute;
     bottom: 5%;
-    background-color: red;
+}
+.contacts{
+    height: 100%;
+    width: 35%;
+    background-color: gold;
+}
+.chat{
+    height: 100%;
+    width: 65%;
+    background-color: greenyellow       
 }
